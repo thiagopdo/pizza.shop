@@ -28,7 +28,6 @@ export default function SingUp() {
 
   async function handleSingUp(data: SingUpForm) {
     try {
-      console.log(data);
 
       await new Promise((resolve) => setTimeout(resolve, 2000));
 
