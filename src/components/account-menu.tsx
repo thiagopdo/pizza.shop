@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { Building, ChevronDown, Divide, LogOut } from "lucide-react";
+import { Building, ChevronDown, LogOut } from "lucide-react";
 
 import { getManagedRestaurant } from "@/api/get-managed-restaurant";
 import { getProfile } from "@/api/get-profile";
