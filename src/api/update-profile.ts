@@ -5,8 +5,6 @@ interface UpdateProfileBody {
   description: string | null;
 }
 
-
-export async function ipdateProfile({name, description}:UpdateProfileBody) {
-  await api.put("/profile", {name, description});
-  
+export async function updateProfile({ name, description }: UpdateProfileBody) {
+  await api.put("/profile", { name, description });
 }
