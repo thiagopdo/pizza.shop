@@ -1,5 +1,4 @@
 {
-  
   "files": [],
   "references": [
     {
@@ -14,5 +13,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
+    "types": ["vitest/globals"]
   }
 }
